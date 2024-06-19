@@ -1,0 +1,31 @@
+{
+  "hosting": [
+    {
+      "target": "host",
+      "public": "public/host",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ]
+    },
+    {
+      "target": "remote-1",
+      "public": "public/remote-1",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ]
+    },
+    {
+      "target": "remote-2",
+      "public": "public/remote-2",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ]
+    }
+  ]
+}
